@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.conteudo, .conteudo .relogio {
+  color: white;
+  height: 100vh;
+}
+.conteudo .relogio {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo span, .conteudo .relogio span {
+  display: block;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 10em;
+  padding: 0 40px;
+}
+@media screen and (max-width: 800px) {
+  .conteudo span, .conteudo .relogio span {
+    font-size: 5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

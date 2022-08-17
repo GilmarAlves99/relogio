@@ -1,0 +1,37 @@
+
+body{   margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.conteudo {
+    color: white;
+   
+   height: 100vh;
+
+    .relogio {
+        background-color: #0e0e0e;
+        @extend .conteudo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    span {
+        display: block;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 10em;
+
+        padding: 0 40px;
+
+        @media screen and (max-width:800px) {
+            font-size: 5rem;
+        }
+
+    }
+
+
+}
