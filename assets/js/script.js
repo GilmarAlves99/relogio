@@ -4,9 +4,10 @@ let clock = () => {
     let minutos = date.getMinutes();
     let segundos = date.getSeconds();
     let periodo = '☽';
-
-   
-    if (hrs < 12) {
+if(hrs==0){
+    hrs=00;
+}
+   else if (hrs >=12) {
         hrs = hrs - 12;
         periodo = '☀';
     }
