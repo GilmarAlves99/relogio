@@ -18,12 +18,19 @@ body {
   display: block;
   border: 1px solid white;
   border-radius: 10px;
-  font-size: 10em;
+  font-size: 8em;
   padding: 0 40px;
 }
 @media screen and (max-width: 800px) {
   .conteudo span, .conteudo .relogio span {
-    font-size: 5rem;
+    font-size: 4em;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .conteudo span, .conteudo .relogio span {
+    font-size: 3em;
+    padding: 0 5px;
   }
 }
 
